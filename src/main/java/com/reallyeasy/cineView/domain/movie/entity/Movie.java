@@ -39,6 +39,5 @@ public class Movie {
     private String posterPath;
 
     private LocalDate releaseDate;
-
 }
 
