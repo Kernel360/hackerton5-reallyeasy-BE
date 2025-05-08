@@ -88,4 +88,7 @@ public class MovieService {
             page++;
         }while (page <= totalPages);
     }
+
+    public List<Movie> getallmovies() {
+        return movieRepository.findAll();}
 }
